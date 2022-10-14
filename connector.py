@@ -5,10 +5,10 @@ class mysql_conn():
 
     def __init__(self):
         self.conn = pymysql.connect(
-            host='139.196.223.204',
+            host='***',
             port=3306,
             user='root',
-            passwd='Loreal01~',
+            passwd='***',
             database='spider',
             charset='utf8'
         )
